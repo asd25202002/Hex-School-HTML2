@@ -211,24 +211,24 @@ body h5{
 	width: 940px;
 }
 /* course-box */
-.home .course-box{
+.course-box{
 	margin-bottom: 55px;
 }
-.home .course-box .more{
+.course-box .more{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 20px;
 }
-.home .course-box .more h3{
+.course-box .more h3{
 	color: #00cc99;
 	font-weight: bold;
 }
-.home .course-box .more h3 span{
+.course-box .more h3 span{
 	color: #9b9b9b;
 	font-size: 18px;
 }
-.home .course-box .more input[type="button"]{
+.course-box .more input[type="button"]{
 	padding: 5px 12px;
 	border: 2px solid #00cc99;
 	border-radius: 5px;
@@ -239,85 +239,85 @@ body h5{
 	font-weight: bold;
 	text-align: center;
 }
-.home .course-box .more input[type="button"]:hover{
+.course-box .more input[type="button"]:hover{
 	background-color: #00cc99;
 	color: #fff;
 	cursor: pointer;
 }
-.home ul{
+.course-box ul{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
-.home ul li{
+.course-box ul li{
 	padding: 20px 15px;
 	width: 300px;
 	box-shadow: 0 2px 0 2px #e4e4e4;
 	text-align: center;
 }
-.home ul li:hover{
+.course-box ul li:hover{
 	box-shadow: 0 2px 2px 2px #9b9b9b;
 	cursor: pointer;
 }
-.home ul li h5{
+.course-box ul li h5{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	font-weight: bold;
 }
-.home ul li p{
+.course-box ul li p{
 	line-height: 1.5;
 	color: #9b9b9b;
 	text-align: left;
 }
 /* compare */
-.home .compare{
+.compare{
 	margin-bottom: 60px;
 }
-.home .compare h3{
+.compare h3{
 	margin-bottom: 25px;
 	color: #00cc99;
 	font-weight: bold;
 }
-.home .compare h3 span{
+.compare h3 span{
 	color: #9b9b9b;
 	font-size: 18px;
 }
-.home .compare table{
+.compare table{
 	margin: 0 auto;
 	width: 100%;
 }
-.home .compare table tr{
+.compare table tr{
 	border-top: 1px solid #ebebeb;
 	border-bottom: 1px solid #ebebeb;
 }
-.home .compare table th,td{
+.compare table th,td{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	font-weight: bold;
 	text-align: center;
 }
-.home .compare table .focus{
+.compare table .focus{
 	color: #00cc99;
 }
 /* contact */
-.home .contact{
+.contact{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	background-color: #ebebeb;
 }
-.home .contact h4{
+.contact h4{
 	padding-top: 135px;
 	padding-bottom: 135px;
 	line-height: 1.5;
 	font-weight: bold;
 }
-.home .contact form{
+.contact form{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-.home .contact form input[type="text"]{
+.contact form input[type="text"]{
 	margin-bottom: 20px;
 	padding: 10px;
 	border: 1px solid #fff;
@@ -327,7 +327,7 @@ body h5{
 	height: 50px;
 	font-size: 20px;
 }
-.home .contact form input[type="email"]{
+.contact form input[type="email"]{
 	margin-bottom: 20px;
 	padding: 10px;
 	border: 1px solid #fff;
@@ -337,13 +337,13 @@ body h5{
 	height: 50px;
 	font-size: 20px;
 }
-.home .contact form input[type="text"]:focus{
+.contact form input[type="text"]:focus{
 	border: 1px solid #9b9b9b;
 }
-.home .contact form input[type="email"]:focus{
+.contact form input[type="email"]:focus{
 	border: 1px solid #9b9b9b;
 }
-.home .contact form input[type="submit"]{
+.contact form input[type="submit"]{
 	align-self: flex-end;
 	border: 1px solid #00cc99;
 	border-radius: 5px;
@@ -354,7 +354,7 @@ body h5{
 	font-size: 20px;
 	font-weight: bold;
 }
-.home .contact form input[type="submit"]:hover{
+.contact form input[type="submit"]:hover{
 	background-color: #00cc999d;
 	cursor: pointer;
 }
@@ -399,60 +399,60 @@ body h5{
 	cursor: pointer;
 }
 /* teacher */
-.course .teacher{
+.teacher{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 50px;
 	font-weight: bold;
 }
-.course .teacher img,h3{
+.teacher img,h3{
 	margin-right: 30px;
 }
-.course .teacher h3{
+.teacher h3{
 	line-height: 1.5;
 }
-.course .teacher h3 span{
+.teacher h3 span{
 	color: #00cc99;
 }
-.course .teacher ul li{
+.teacher ul li{
 	margin-left: 2em;
 	position: relative;
 	line-height: 1.5;
 	color: #9b9b9b;
 	font-size: 18px;
 }
-.course .teacher ul li::before{
+.teacher ul li::before{
 	position: absolute;
 	top: 0;
 	left: -2em;
 	content: '▪';
 }
 /* why */
-.course .why,.teach{
+.why,.teach{
 	margin: 0 auto;
 	width: 635px;
 }
-.course .why h3{
+.why h3{
 	margin-bottom: 20px;
 	color: #00cc99;
 	font-weight: bold;
 }
-.course .why h3 span{
+.why h3 span{
 	color: #9b9b9b;
 	font-size: 18px;
 }
-.course .why ol{
+.why ol{
 	margin-bottom: 50px;
 	counter-reset:num;
 }
-.course .why ol li{
+.why ol li{
 	margin-left: 2em;
 	position: relative;
 	font-size: 18px;
 	font-weight: bold;
 }
-.course .why ol li::before{
+.why ol li::before{
 	position: absolute;
 	top: 0;
 	left: -2em;
@@ -460,44 +460,44 @@ body h5{
 	content: counter(num)'.';
 }
 /* teach */
-.course .teach h3{
+.teach h3{
 	margin-bottom: 25px;
 	color: #00cc99;
 	font-weight: bold;
 }
-.course .teach h3 span{
+.teach h3 span{
 	color: #9b9b9b;
 	font-size: 18px;
 }
-.course .teach ul{
+.teach ul{
 	margin-bottom: 55px;
 }
-.course .teach ul li{
+.teach ul li{
 	padding-top: 15px;
 	padding-left: 35px;
 	padding-bottom: 15px;
 	font-weight: bold;
 }
-.course .teach ul li:nth-child(odd){
+.teach ul li:nth-child(odd){
 	background-color: #ebebeb;
 }
-.course .teach ul li:nth-child(even){
+.teach ul li:nth-child(even){
 	color: #9b9b9b;
 }
 /* join */
-.course .join{
+.join{
 	display: flex;
 	justify-content: center;
 	padding-top: 150px;
 	padding-bottom: 150px;
 	background-color: #ebebeb;
 }
-.course .join h4{
+.join h4{
 	margin-right: 60px;
 	line-height: 1.5;
 	font-weight: bold;
 }
-.course .join input[type="button"]{
+.join input[type="button"]{
 	align-self: flex-end;
 	border: 1px solid #00cc99;
 	border-radius: 5px;
@@ -578,76 +578,76 @@ body h5{
 	background: url(../img/search.png);
 }
 /* question */
-.fqa .question,.pay,.Refund{
+.question,.pay,.Refund{
 	margin-bottom: 50px;
 }
-.fqa .fqa-box h3{
+.fqa-box h3{
 	margin-bottom: 25px;
 	color: #00cc99;
 	font-weight: bold;
 }
-.fqa .fqa-box h3 span{
+.fqa-box h3 span{
 	color: #9b9b9b;
 	font-size: 18px;
 	font-weight: bold;
 }
-.fqa .fqa-box h4{
+.fqa-box h4{
 	margin-top: 25px;
 	margin-bottom: 5px;
 	font-weight: bold;
 }
-.fqa .fqa-box p{
+.fqa-box p{
 	line-height: 1.5;
 	color: #9b9b9b;
 }
-.fqa .fqa-box p a{
+.fqa-box p a{
 	text-decoration: none;
 	color: #00cc99;
 	font-weight: bold;
 }
-.fqa .fqa-box p a:hover{
+.fqa-box p a:hover{
 	text-decoration: underline;
 }
-.fqa .fqa-box .item-box{
+.fqa-box .item-box{
 	margin-bottom: 25px;
 	counter-reset:num;
 }
-.fqa .fqa-box .item-box li{
+.fqa-box .item-box li{
 	margin-top: 10px;
 	margin-left: 4em;
 	margin-bottom: 10px;
 	position: relative;
 	color: #9b9b9b;
 }
-.fqa .fqa-box ol li::before{
+.fqa-box ol li::before{
 	position: absolute;
 	top: 0;
 	left: -2em;
 	counter-increment:num;
 	content: counter(num)'.';
 }
-.fqa .fqa-box ul li::before{
+.fqa-box ul li::before{
 	position: absolute;
 	top: 0;
 	left: -2em;
 	content: '▪';
 }
 /* email */
-.fqa .email{
+.email{
 	display: flex;
 	justify-content: space-around;
 	padding-top: 110px;
 	background-color: #ebebeb;
 }
-.fqa .email h4{
+.email h4{
 	line-height: 1.5;
 	font-weight: bold;
 }
-.fqa .email form{
+.email form{
 	display: flex;
 	flex-direction: column;
 }
-.fqa .email form input[type="text"]{
+.email form input[type="text"]{
 	margin-bottom: 20px;
 	padding: 10px;
 	border: 1px solid #fff;
@@ -657,7 +657,7 @@ body h5{
 	height: 50px;
 	font-size: 20px;
 }
-.fqa .email form input[type="email"]{
+.email form input[type="email"]{
 	margin-bottom: 20px;
 	padding: 10px;
 	border: 1px solid #fff;
@@ -667,7 +667,7 @@ body h5{
 	height: 50px;
 	font-size: 20px;
 }
-.fqa .email form textarea{
+.email form textarea{
 	margin-bottom: 20px;
 	padding: 10px;
 	border: 1px solid #fff;
@@ -677,16 +677,16 @@ body h5{
 	height: 205px;
 	font-size: 20px;
 }
-.fqa .email form input[type="text"]:focus{
+.email form input[type="text"]:focus{
 	border: 1px solid #9b9b9b;
 }
-.fqa .email form input[type="email"]:focus{
+.email form input[type="email"]:focus{
 	border: 1px solid #9b9b9b;
 }
-.fqa .email form textarea:focus{
+.email form textarea:focus{
 	border: 1px solid #9b9b9b;
 }
-.fqa .email form input[type="submit"]{
+.email form input[type="submit"]{
 	align-self: flex-end;
 	margin-bottom: 60px;
 	border: 1px solid #00cc99;
@@ -698,7 +698,7 @@ body h5{
 	font-size: 20px;
 	font-weight: bold;
 }
-.fqa .email form input[type="submit"]:hover{
+.email form input[type="submit"]:hover{
 	background-color: #00cc999d;
 	cursor: pointer;
 }
