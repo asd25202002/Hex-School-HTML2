@@ -125,7 +125,7 @@ body h5{
 }
 /* content */
 .content{
-	padding-top: 55px;
+	margin-top: 55px;
 }
 
 /* footer */
@@ -206,13 +206,10 @@ body h5{
 	color: #00cc99;
 	cursor: pointer;
 }
-.home .course-box,.compare{
-	margin: 0 auto;
-	width: 940px;
-}
 /* course-box */
 .course-box{
-	margin-bottom: 55px;
+	margin: 0 auto 55px;
+	width: 940px;
 }
 .course-box .more{
 	display: flex;
@@ -271,7 +268,8 @@ body h5{
 }
 /* compare */
 .compare{
-	margin-bottom: 60px;
+	margin: 0 auto 60px;
+	width: 940px;
 }
 .compare h3{
 	margin-bottom: 25px;
